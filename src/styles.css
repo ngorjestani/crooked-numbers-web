@@ -1,0 +1,24 @@
+:root {
+  color-scheme: light;
+  background: var(--mantine-color-gray-0);
+}
+
+body {
+  margin: 0;
+}
+
+.brand-link {
+  color: inherit;
+  text-decoration: none;
+  letter-spacing: -0.03em;
+}
+
+.team-switcher {
+  min-width: 260px;
+}
+
+@media (max-width: 48em) {
+  .team-switcher {
+    min-width: 100%;
+  }
+}
